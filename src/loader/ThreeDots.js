@@ -22,7 +22,7 @@ export const ThreeDots = props => (
         repeatCount="indefinite"
       />
       <animate
-        attributeName="fillOpacity"
+        attributeName="fill-opacity"
         from="1"
         to="1"
         begin="0s"
@@ -36,7 +36,7 @@ export const ThreeDots = props => (
       cx="60"
       cy="15"
       r={props.radius}
-      attributeName="fillOpacity"
+      attributeName="fill-opacity"
       from="1"
       to="0.3"
     >
@@ -51,7 +51,7 @@ export const ThreeDots = props => (
         repeatCount="indefinite"
       />
       <animate
-        attributeName="fillOpacity"
+        attributeName="fill-opacity"
         from="0.5"
         to="0.5"
         begin="0s"
@@ -73,7 +73,7 @@ export const ThreeDots = props => (
         repeatCount="indefinite"
       />
       <animate
-        attributeName="fillOpacity"
+        attributeName="fill-opacity"
         from="1"
         to="1"
         begin="0s"
